@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true, // optional but often needed
+        "module": "commonjs", // or "esnext" depending on your setup
+        "target": "es5",
+        "lib": [
+            "es5",
+            "dom"
+        ],
+        "sourceMap": true,
+        "types": [
+            "cypress",
+            "node",
+            "cypress-real-events"
+        ]
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}

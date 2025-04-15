@@ -1,0 +1,22 @@
+{
+  "name": "latest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.51.0",
+    "cypress": "^14.3.0",
+    "cypress-real-events": "^1.14.0",
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
