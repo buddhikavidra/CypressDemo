@@ -17,5 +17,5 @@ import '@applitools/eyes-cypress/commands'
 
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './cutomCommands/commands'
 import "cypress-real-events/support"
